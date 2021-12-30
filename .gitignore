@@ -2,6 +2,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/eclipse,visualstudiocode,intellij,java
 # Edit at https://www.toptal.com/developers/gitignore?templates=eclipse,visualstudiocode,intellij,java
 
+apache-tomcat-9.0.55
+
 ### Eclipse ###
 .metadata
 bin/
