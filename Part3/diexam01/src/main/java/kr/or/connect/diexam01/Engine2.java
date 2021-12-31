@@ -1,7 +1,10 @@
 package kr.or.connect.diexam01;
 
-public class Engine {
-	public Engine() {
+import org.springframework.stereotype.Component;
+
+@Component
+public class Engine2 {
+	public Engine2() {
 		System.out.println("Engine 생성자");
 	}
 	
