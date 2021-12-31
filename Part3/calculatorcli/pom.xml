@@ -16,6 +16,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+    <failOnMissingWebXml>false</failOnMissingWebXml>
+    <spring.version>5.2.3.RELEASE</spring.version>
   </properties>
 
   <dependencies>
@@ -25,6 +27,28 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    
+ <!-- spring-context와 spring-test를 의존성에 추가합니다.-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+    
+    <!-- test mock을 위한 라이브러리를 추가합니다. -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>1.9.5</version>
+            <scope>test</scope>
+        </dependency>
+    
   </dependencies>
 
   <build>
