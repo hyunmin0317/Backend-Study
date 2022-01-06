@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <web-app>
 
-  <display-name>Spring JavaConfig Sample</display-name>
+ <display-name>Spring JavaConfig Sample</display-name>
 
   <servlet>
     <servlet-name>mvc</servlet-name>
@@ -20,6 +21,5 @@
     <servlet-name>mvc</servlet-name>
     <url-pattern>/</url-pattern>
   </servlet-mapping>
-
-
+    
 </web-app>
