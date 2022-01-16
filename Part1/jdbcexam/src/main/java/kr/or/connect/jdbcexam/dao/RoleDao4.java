@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 
 public class RoleDao4 {
 	private static String dburl = "jdbc:mysql://localhost:3306/connectdb";
-	private static String dbUser = "choihm9903";
+	private static String dbUser = "hyunmin";
 	private static String dbpasswd = "0317";
 
 	public int deleteRole(Integer roleId) {

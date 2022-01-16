@@ -8,7 +8,7 @@ import kr.or.connect.jdbcexam.dto.Role;
 
 public class RoleDao5 {
 	private static String dburl = "jdbc:mysql://localhost:3306/connectdb";
-	private static String dbUser = "choihm9903";
+	private static String dbUser = "hyunmin";
 	private static String dbpasswd = "0317";
 	
 	public int updateRole(Role role) {
