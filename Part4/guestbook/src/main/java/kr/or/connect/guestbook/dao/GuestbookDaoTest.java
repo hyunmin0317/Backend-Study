@@ -22,12 +22,12 @@ public class GuestbookDaoTest {
 		Long id = guestbookDao.insert(guestbook);
 		System.out.println("id : " + id);
 		
-//		LogDao logDao = ac.getBean(LogDao.class);
-//		Log log = new Log();
-//		log.setIp("127.0.0.1");
-//		log.setMethod("insert");
-//		log.setRegdate(new Date());
-//		logDao.insert(log);
+		LogDao logDao = ac.getBean(LogDao.class);
+		Log log = new Log();
+		log.setIp("127.0.0.1");
+		log.setMethod("insert");
+		log.setRegdate(new Date());
+		logDao.insert(log);
 	}
 
 }
