@@ -18,7 +18,7 @@
 	</listener>
 
 	<servlet>
-		<servlet-name>mvc</servlet-name>
+		<servlet-name>mvc2</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet
 		</servlet-class>
 		<init-param>
@@ -33,10 +33,7 @@
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
-	<servlet-mapping>
-		<servlet-name>mvc</servlet-name>
-		<url-pattern>/</url-pattern>
-	</servlet-mapping>
+  
 
 	<filter>
 		<filter-name>encodingFilter</filter-name>

@@ -62,8 +62,7 @@ public class GuestbookServiceImpl implements GuestbookService{
 
 	@Override
 	public int getCount() {
-//		return guestbookDao.selectCount();
-		return 0;
+		return guestbookDao.selectCount();
 	}
 	
 	
