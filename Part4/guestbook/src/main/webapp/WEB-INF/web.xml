@@ -18,7 +18,7 @@
 	</listener>
 
 	<servlet>
-		<servlet-name>mvc2</servlet-name>
+		<servlet-name>guestbook</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet
 		</servlet-class>
 		<init-param>
@@ -33,6 +33,10 @@
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
+	<servlet-mapping>
+	    <servlet-name>guestbook</servlet-name>
+	    <url-pattern>/</url-pattern>
+  </servlet-mapping>
   
 
 	<filter>
