@@ -26,5 +26,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="C:/Users/CodeWise/OneDrive - 몽타 주식회사/바탕 화면/Project/Backend-Study/mysql-connector-java-8.0.27.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
