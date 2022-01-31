@@ -10,7 +10,7 @@
 
 <br>
 
-## :notebook_with_decorative_cover: Used Tech Stack
+## :notebook_with_decorative_cover: Tech Stack
 
 * ### Spring MVC
 * ### Spring JDBC
