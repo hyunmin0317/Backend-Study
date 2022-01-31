@@ -1,6 +1,6 @@
 # Backend Study
 
-### 웹 백엔드 스터디 (2021.12.27 ~ )
+### 웹 백엔드 스터디 (2021.12.27 ~ 2022.01.31)
 
 ---
 
@@ -10,18 +10,28 @@
 
 <br>
 
+## :notebook_with_decorative_cover: Used Tech Stack
+
+* ### Spring MVC
+* ### Spring JDBC
+* ### Spring Security
+* ### SQL
+* ### JDBC
+
+<br>
+
 ## :computer: 팀원 
 
-> **이제운 [(JewoonLee)](https://github.com/JewoonLee)**
->
+
 > **최현민 [(hyunmin0317)](https://github.com/hyunmin0317)**
+>
+> **이제운 [(JewoonLee)](https://github.com/JewoonLee)**
 >
 > **고민영 [(gomin0)](https://github.com/gomin0)**
 >
 > **서유림 [(ulimsss)](https://github.com/ulimsss)**
 >
-> **정사비비** 
+> **정사비비 [(JeongSabibi)](https://github.com/JeongSabibi)** 
 >
 > **신정우**
-> 
-> **강승준**
+>
