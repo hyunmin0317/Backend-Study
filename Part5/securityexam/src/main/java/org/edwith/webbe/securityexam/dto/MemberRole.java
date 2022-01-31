@@ -37,4 +37,8 @@ public class MemberRole {
 		this.roleName = roleName;
 	}
 
+	@Override
+	public String toString() {
+		return "MemberRole [id=" + id + ", memberId=" + memberId + ", roleName=" + roleName + "]";
+	}
 }

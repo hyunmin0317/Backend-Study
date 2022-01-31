@@ -69,4 +69,10 @@ public class Member {
     public void setModifyDate(Date modifyDate) {
         this.modifyDate = modifyDate;
     }
+
+	@Override
+	public String toString() {
+		return "Member [id=" + id + ", name=" + name + ", password=" + password + ", email=" + email + ", createDate="
+				+ createDate + ", modifyDate=" + modifyDate + "]";
+	}
 }
