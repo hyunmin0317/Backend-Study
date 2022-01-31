@@ -67,4 +67,6 @@ public class GuestbookApiController {
 		int deleteCount = guestbookService.deleteGuestbook(id, clientIp);
 		return Collections.singletonMap("success", deleteCount > 0 ? "true" : "false");
 	}
+	
+	
 }
